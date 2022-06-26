@@ -9,6 +9,7 @@ import ComponentsOito from "./Components/ComponentsOito";
 import ComponentsNove from "./Components/ComponentsNove";
 import ComponentsPai from "./Components/ComunicaçãoDireita/ComponentsPai";
 import ComponentsMae from "./Components/ComunicaçãoIndireita/ComponentsMae";
+import ComponentsPai2 from "./Components/ComunicaçãoIndireita2/ComponentsPai2";
 import './App.css'
 
 function App() {
@@ -40,7 +41,9 @@ function App() {
 
       <ComponentsPai titulo="Comunicação Direita - Pai"/>
 
-      <ComponentsMae />
+      <ComponentsMae  titulo="Comunicação Indireita - Pai"/>
+
+      <ComponentsPai2 titulo="Comunicação Indireita - Pai2" />
 
     </div>
 
