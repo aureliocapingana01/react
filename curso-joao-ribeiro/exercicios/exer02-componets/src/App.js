@@ -8,6 +8,7 @@ import ComponentsSete from "./Components/ComponentsSete";
 import ComponentsOito from "./Components/ComponentsOito";
 import ComponentsNove from "./Components/ComponentsNove";
 import ComponentsPai from "./Components/ComunicaçãoDireita/ComponentsPai";
+import ComponentsMae from "./Components/ComunicaçãoIndireita/ComponentsMae";
 import './App.css'
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
       <ComponentsUm titulo="Componente um">
         <ol className="lista">
           <li>2023</li>
-          <li>Ganha na Mega-Sena</li>
           <li>Voltar para Jeová</li>
+          <li>Ganha na Mega-Sena</li>
           <li>Casar e Viajar</li>
           <li>Ser feliz com Jeová e com o amor da vida a dois</li>
         </ol>
@@ -38,6 +39,8 @@ function App() {
       <ComponentsNove titulo="Componente Nove - Style Inline" />
 
       <ComponentsPai titulo="Comunicação Direita - Pai"/>
+
+      <ComponentsMae />
 
     </div>
 

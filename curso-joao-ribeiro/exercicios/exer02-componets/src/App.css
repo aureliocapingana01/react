@@ -20,6 +20,11 @@ body{
     margin: 10px;
     padding: 10px;
 }
+.filha{
+    background-color: rgba(209, 14, 167, 0.74);
+    margin: 10px;
+    padding: 10px;
+}
 .App{
     margin: auto;
     padding: 20px;
