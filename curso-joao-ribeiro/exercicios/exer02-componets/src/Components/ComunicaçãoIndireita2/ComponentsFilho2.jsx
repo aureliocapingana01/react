@@ -8,7 +8,7 @@ const ComponentsFilho2 = (props) =>{
             </p>
             <button onClick={() =>{
                 props.funcao('Aurelio Capingana')
-            } } >Executar</button>
+            } } > Executar </button>
         </div>
     )
 }
