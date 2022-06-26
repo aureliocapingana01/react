@@ -7,7 +7,7 @@ const ComponentsFilho2 = (props) =>{
             Titulo: {props.titulo}
             </p>
             <button onClick={() =>{
-                props.funcao('Aurelio')
+                props.funcao('Aurelio Capingana')
             } } >Executar</button>
         </div>
     )
